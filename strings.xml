@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DoJa Emulator KitKat</string>
+    <string name="btn_load_jam">Pilih .JAM / .JAR</string>
+    <string name="btn_reset">Reset</string>
+    <string name="status_ready">Siap memuat i-appli (.jam / .jar) di Android 4.4 KitKat</string>
+</resources>

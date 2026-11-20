@@ -1,0 +1,35 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'id.doja.kitkat.emulator'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "id.doja.kitkat.emulator"
+        minSdk 19
+        targetSdk 19
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // Tanpa dependensi AndroidX berat agar APK ringan & lancar di Android 4.4 KitKat (API 19)
+}

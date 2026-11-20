@@ -1,0 +1,2 @@
+-keep class id.doja.kitkat.emulator.** { *; }
+-keep class com.nttdocomo.** { *; }
